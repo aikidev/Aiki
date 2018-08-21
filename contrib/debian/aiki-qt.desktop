@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Aiki
+Comment=Aiki P2P Cryptocurrency
+Comment[fr]=Aiki, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Aiki, eşten eşe kriptografik sanal para birimi
+Exec=aiki-qt %u
+Terminal=false
+Type=Application
+Icon=aiki128
+MimeType=x-scheme-handler/aiki;
+Categories=Office;Finance;

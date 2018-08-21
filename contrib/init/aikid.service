@@ -1,0 +1,26 @@
+[Unit]
+Description=AIKI's distributed currency daemon
+After=network.target
+
+[Service]
+User=aiki
+Group=aiki
+
+Type=forking
+PIDFile=/var/lib/aikid/aikid.pid
+
+ExecStart=/usr/bin/aikid -daemon -pid=/var/lib/aikid/aikid.pid \
+          -conf=/etc/aiki/aiki.conf -datadir=/var/lib/aikid
+
+ExecStop=-/usr/bin/aiki-cli -conf=/etc/aiki/aiki.conf \
+         -datadir=/var/lib/aikid stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
