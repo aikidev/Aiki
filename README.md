@@ -1,4 +1,8 @@
+![aiki](https://github.com/aikidev/polis/Aiki/master/src/qt/res/icons/bitcoin.png "Aiki")
 #### Aiki Core Wallet
+
+
+
 
 AIKI Specifications
 
@@ -11,15 +15,19 @@ Masternode colletral: 5000 AIKI
 
 Masternode rewards: 85%
 
-Block reward till block: 6000 - 1 AIKI
+From Block 10  to block 2000 : 10
+From Block 2000 to block 19000 : 51
+From Block 19000 to block 29000 : 20
+From Block 29000 to block 39000 : 14
+From Block 39000 to block 49000 : 9
+From Block 49000 to block 69000 : 7
+From Block 69000 to Forever : 5
 
-Block reward: 100 AIKI - 200 AIKI
-
-POS start block: 1200
+POS start block: 1300
 
 Block Timer: 60 seconds
 
-Maturity: 30 blocks
+Maturity: 26 blocks
 
 Max supply: 21 000 000 AIKI
 
