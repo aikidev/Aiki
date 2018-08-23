@@ -2,8 +2,6 @@
 #### Aiki Core Wallet
 
 
-
-
 AIKI Specifications
 
 
@@ -16,11 +14,17 @@ Masternode colletral: 5000 AIKI
 Masternode rewards: 85%
 
 From Block 10  to block 2000 : 10
+
 From Block 2000 to block 19000 : 51
+
 From Block 19000 to block 29000 : 20
-From Block 29000 to block 39000 : 14
+
+From Block 29000 to block 39000 : 14 
+
 From Block 39000 to block 49000 : 9
+
 From Block 49000 to block 69000 : 7
+
 From Block 69000 to Forever : 5
 
 POS start block: 1300
