@@ -1,4 +1,4 @@
-![aiki](https://github.com/aikidev/polis/Aiki/master/src/qt/res/icons/bitcoin.png "Aiki")
+![aiki](https://github.com/aikidev/Aiki/blob/master/src/qt/res/icons/bitcoin.png "aiki")
 #### Aiki Core Wallet
 
 
